@@ -1,0 +1,47 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+ <!-- Background with subtle gradient -->
+ <defs>
+  <linearGradient y2="100%" x2="100%" y1="0%" x1="0%" id="gradient">
+   <stop stop-color="#1a1a2e" offset="0%"/>
+   <stop stop-color="#16213e" offset="100%"/>
+  </linearGradient>
+ </defs>
+ <!-- Globe Icon (simplified) -->
+ <!-- Network Visualization (organized grid) -->
+ <!-- Text Content (better hierarchy) -->
+ <!-- Example Conversion (aligned properly) -->
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" ry="15" rx="15" fill="url(#gradient)" height="300" width="800"/>
+  <circle id="svg_2" stroke-width="6" stroke="#4cc9f0" fill="none" r="60" cy="150" cx="200"/>
+  <path id="svg_3" stroke-linecap="round" stroke-width="6" stroke="#4cc9f0" fill="none" d="m200,90q0,60 60,60q-60,0 -60,60q0,-60 -60,-60q60,0 60,-60"/>
+  <g id="svg_4">
+   <!-- Nodes -->
+   <circle id="svg_5" fill="#f72585" r="12" cy="100" cx="450"/>
+   <circle id="svg_6" fill="#7209b7" r="12" cy="140" cx="530"/>
+   <circle id="svg_7" fill="#3a0ca3" r="12" cy="100" cx="610"/>
+   <circle id="svg_8" fill="#4361ee" r="12" cy="60" cx="530"/>
+   <!-- Connections -->
+   <line id="svg_9" opacity="0.7" stroke-width="2" stroke="#f72585" y2="140" x2="530" y1="100" x1="450"/>
+   <line id="svg_10" opacity="0.7" stroke-width="2" stroke="#7209b7" y2="100" x2="610" y1="140" x1="530"/>
+   <line id="svg_11" opacity="0.7" stroke-width="2" stroke="#3a0ca3" y2="60" x2="530" y1="100" x1="610"/>
+   <line id="svg_12" opacity="0.7" stroke-width="2" stroke="#4361ee" y2="100" x2="450" y1="60" x1="530"/>
+  </g>
+  <text id="svg_13" fill="#ffffff" text-anchor="middle" font-weight="700" font-size="48" font-family="'Segoe UI', Arial, sans-serif" y="110" x="400">WhoisThere</text>
+  <text id="svg_14" fill="#4cc9f0" text-anchor="middle" font-size="24" font-family="'Segoe UI', Arial, sans-serif" y="150" x="400">IP to ASN Lookup Tool</text>
+  <g id="svg_15">
+   <rect id="svg_16" fill="#7209b7" ry="8" rx="8" height="50" width="130" y="195" x="250"/>
+   <rect id="svg_17" fill="#4361ee" ry="8" rx="8" height="50" width="120" y="195" x="470"/>
+   <text id="svg_18" fill="#ffffff" text-anchor="middle" font-size="14" font-family="monospace" y="225" x="315">142.250.194.0/24</text>
+   <text id="svg_19" fill="#ffffff" text-anchor="middle" font-size="14" font-family="monospace" y="220" x="530">AS15169</text>
+   <text id="svg_20" fill="#dddddd" text-anchor="middle" font-size="12" font-family="monospace" y="238" x="530">Google LLC</text>
+   <!-- Arrow with better styling -->
+   <path id="svg_21" marker-end="url(#arrowhead)" stroke-linecap="round" stroke-width="3" stroke="#ffffff" d="m394,220l60,0"/>
+   <defs transform="translate(400 220)">
+    <marker orient="auto" refY="3.5" refX="9" markerHeight="7" markerWidth="10" id="arrowhead">
+     <polygon id="svg_22" fill="#ffffff" points="0 0, 10 3.5, 0 7"/>
+    </marker>
+   </defs>
+  </g>
+ </g>
+</svg>
